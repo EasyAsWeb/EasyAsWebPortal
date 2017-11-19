@@ -1,0 +1,92 @@
+.color-picker{
+	// display: none;
+	position: relative;
+	width:250px;
+	position: fixed;
+	left:-250px;
+	top:50%;
+	transform: translatey(-50%);
+	z-index: 1000;
+	background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: $primary-border-radius;
+
+	.color-picker-head{
+		padding: 10px;
+    	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	}
+
+	.color-picker-body{
+		padding:20px;
+
+		ul#colorPickers {
+			margin-bottom: 0;
+			li{
+				cursor: pointer;
+				display: inline-block;
+			    margin-bottom: 3px;
+			    margin-right: 3px;
+			    width: 46px;
+			    height: 24px;
+			    position: relative;
+
+				&:nth-child(1) {background: $accent;}
+				&:nth-child(2) {background: #d8b300;}
+				&:nth-child(3) {background: #be0f00;}
+				&:nth-child(4) {background: #4fbe00;}
+				&:nth-child(5) {background: #861286;}
+				&:nth-child(6) {background: #d84700;}
+				&:nth-child(7) {background: #00b0eb;}
+				&:nth-child(8) {background: #1abc9c;}
+
+				&.active:after{
+					content: "\f122";
+					font-family: 'Ionicons';
+					position: absolute;
+					top: 0;
+					left: 0;
+					color: #fff;
+					padding: 0 15px;
+					font-size: 18px;
+				}
+			}
+		}
+	}
+
+	.box{
+		display: inline-block;
+		width:20px;
+		height:20px;
+		margin-right: 10px;
+	}
+
+	.switcher-trigger{
+		position: absolute;
+	    top: -1px;
+	    right: -42px;
+	    width: 42px;
+	    height: 42px;
+	    background-color: rgba(255, 255, 255, 0.9);
+	    cursor: pointer;
+	    border: 1px solid rgba(0, 0, 0, 0.1);
+	    border-left: none;
+	    border-radius: 0 $primary-border-radius $primary-border-radius 0;
+
+		&:before{
+			font-family: 'ionicons';
+			color: $color__primary--light;
+			font-size: 30px;
+			content: '\f13e';
+			position: absolute;
+			top:50%;
+			left:50%;
+			transform: translatex(-50%) translatey(-50%) ;
+		}
+	}
+}
+.download{
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	z-index: 33;
+}

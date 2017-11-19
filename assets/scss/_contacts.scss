@@ -1,0 +1,149 @@
+/*contact*/
+/********/
+
+.contact-form{
+  background: #f9f9f9;
+
+  p{
+    font-size: 1.414rem;
+    line-height: 1.414;
+    font-weight: 300;
+    color: #5d5d5d;
+    margin-bottom: 40px;
+  }
+
+  .contact-desc{
+    margin-bottom: 40px;
+
+    @media (min-width){
+      margin-bottom: 0;
+    }
+  }
+
+  .contact-icon-block{
+    margin-bottom: 30px;
+    span.contact-form-icons{
+      float: left;
+      background-color: $accent;
+      width:30px;
+      height: 30px;
+      margin-top: 10px;
+      margin-right: 20px;
+      transform: rotate(-45deg);
+      border-radius: $primary-border-radius;
+      position: relative;
+
+      i{
+        position: absolute;
+        color:#fff;
+        font-size:18px;
+        top:50%;
+        left:50%;
+        transform: translatex(-50%) translatey(-50%) rotate(45deg);
+      }
+    }
+
+    .contact-small-header{
+      font-size:$text__size--eta;
+    }
+
+    .contact-small-text{
+      float: left;
+      span{
+        display: block;
+      }
+    }
+  }
+
+  .contact-fields{
+    margin-top: 10px;
+    margin-bottom:20px;
+  }
+
+  .form-control{
+    padding:20px 10px;
+  }
+
+  textarea{
+    height:160px;
+  }
+
+  .form-field,textarea{
+    margin-bottom: 15px;
+  }
+
+  .form-submit-button{
+    background-color: #333;
+    color: #fff;
+  }
+}
+
+/*** map ***/
+
+.contact-map{
+  border-top: 1px solid #F0F3F6;
+  #map{
+    width:100%;
+    height:350px;
+  }
+}
+
+// Login
+.login{
+  .login-box{
+    background-color: rgb(255, 255, 255);
+    padding: 45px 30px;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.15);
+
+    a.forgot{
+      margin-top: 8px;
+      float: right;
+      display: inline-block;
+      color: $accent;
+    }
+    p{
+      padding: 45px 0 15px;
+      font-weight: 700;
+    }
+    .twitter{
+      background-color: #1da1f2;
+    }
+    .facebook{
+      background-color: #49649f;
+    }
+    .google{
+      background-color: #ec0000;
+    }
+  }
+}
+
+.contact-split{
+  .content-wrap{
+    text-align: left;
+    padding: 80px 15px 80px 40px;
+  }
+  .split-form {
+    margin-top: 40px;
+    line-height: 2;
+    font-size: 1.414rem;
+    text-align:left;
+    .form-control{
+      background-color: transparent;
+      border-color: transparent;
+      box-shadow: none;
+      border-bottom-color: #ddd;
+      border-radius: 0;
+      padding: 0 0 0 5px;
+      height: auto;
+    }
+    .form-group {
+      margin-top: -10px;
+      margin-left: 15px;
+    }
+    .btn-mountain-flat {
+      margin-top: 40px;
+    }
+  }
+}

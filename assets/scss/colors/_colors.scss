@@ -1,0 +1,444 @@
+// Colors
+$accent: #007fbe !default;
+$accent__light: #00a1f1 !default;
+
+$hue:hue($accent);
+$saturation:saturation($accent);
+$lightness:lightness($accent);
+$link-color: $accent;
+
+.default-mountain-link{
+	color:	$accent;
+
+	&:hover{
+		color: $accent__light;
+	}
+}
+
+
+.btn-mountain{
+  background-color: $accent__light;
+  border-color: $accent__light;
+  border-bottom-color: $accent;
+  
+  &:hover, &:focus, &:active{
+    background: lighten($accent__light, 5%);
+    border-color: lighten($accent__light, 5%);
+    border-bottom-color: lighten($accent, 5%);
+  }
+}
+
+.btn-mountain-flat{
+  background-color: $accent;
+  border-color: $accent;
+  
+  &:hover, &:focus, &:active{
+    background: $accent__light;
+    border-color: $accent__light;
+  }
+}
+
+.btn-mountain-o{
+  color: $accent__light;
+  border-color: $accent__light;
+  &:hover, &:focus, &:active{
+    background: $accent__light;
+    border-color: $accent__light;
+  }
+}
+.btn-classic{
+  border-bottom-color: $accent;
+  color: $accent;
+}
+.btn-video:before{
+  color: $accent;
+}
+
+.icon-3-col .item .icon .line-top, .icon-3-col .item .icon .line-bottom{
+	background-color: $accent;
+}
+
+.icon-3-col .item:hover .icon {
+    color: $accent;
+}
+
+.fsicon{
+
+  i{
+    color: $accent;
+  }
+}
+
+.icon-wraper{
+  i{
+    color: $accent;
+  }
+}
+.icon-top-wiget:hover{
+    .icon-wraper{
+      background-color: $accent;
+      transition: background-color .5s ease-in-out;
+    }
+  }
+
+// testimonials
+.testimonial #testimonial-slider .item-content .author{
+	color: $accent;
+}
+
+.testimonial #testimonial-slider .owl-dots .owl-dot.active {
+	border-color: $accent;
+}
+
+
+//pricing
+.price-cta .price-number-wrap .price-top .price-cta-number{
+	color: $accent;
+}
+
+.contact-form .contact-icon-block span.contact-form-icons{
+	background-color: $accent;
+}
+.nav-tabs > li > a{
+	color: $accent;
+}
+
+.project-feature .features h5 i{
+  color: $accent;
+}
+.share-on a{
+    color: $accent;
+}
+
+
+.subscription.mountainWidget{
+  .input-group-btn{
+    .btn-default{
+      background-color: $accent;
+      border-color: $accent;
+    }
+  }
+}
+
+
+
+.video .partial-bg .bg-wrapper .v-center .lightbox-video .btn-round-video{
+  background-color: rgba($accent,0.8);
+}
+
+.portfolio-hover{
+  background-color: rgba($accent,0.9);
+}
+
+.faq-box h4{
+    &::first-letter {
+      color: $accent__light;
+    }
+  }
+
+.panel-heading h4.panel-title:before {
+    color: $accent__light;
+}
+
+.wid-social-icons ul li {
+    background-color: $accent;
+}
+
+.team2{
+  .social-icons{
+    margin-bottom: 25px;
+    li{
+      a{
+        color: $accent;
+      }
+    }
+  }
+}
+
+.our-process1 .process-wrap:hover .process-step {
+    background-color: $accent;
+}
+
+
+.subscription.mountainWidget{
+  .input-group-btn{
+    #subscribe-button {
+      background-color: $accent;
+      border-color: $accent;
+    }
+  }
+}
+
+.menuzord.menuzord-single ul li.active a span:after {
+    background-color: $accent;
+}
+.dot-menu .menuzord .menuzord-menu li.active a{
+  background-color: $accent;
+}
+.menuzord.menuzord-single ul li a span:after {
+    background-color: $accent;
+}
+
+.latest-news-meta .meta:hover {
+    color: $accent;
+}
+
+.latest-news-wrap h3 a:hover {
+    color: $accent;
+}
+
+.author-wrap .author-name:hover {
+    color: $accent;
+}
+
+.author-wrap .comments-number:hover {
+    color: $accent;
+}
+
+.pagination-box {
+  a span{
+    &:hover{
+      color: $accent;
+    }
+  }
+  a i{
+    &:hover{
+      color: $accent;
+    }
+  }
+}
+
+.wid-social-icons ul li a{
+  background-color: $accent;
+
+  &:hover{
+    background-color: $accent__light;
+  }
+}
+
+.wid-social-icons2 ul li a{
+  &:hover{
+    background-color: $accent__light;
+  }
+}
+
+.widget-subscription3 button, .widget-subscription2 button {
+  background-color: $accent;
+
+  &:hover{
+    background-color: $accent__light;
+  }
+}
+
+.mountainWidget.tag-list a:hover {
+    background-color: $accent;
+    color: #f8f8f8;
+}
+
+.linkswidget li a:hover {
+    color: $accent;
+}
+
+.mountainWidget a{
+  &:hover{
+    color: $accent;
+  }
+}
+
+.textWidget2{
+  background-color: $accent;
+  }
+
+.sortable-portfolio-button button {
+    &:hover{
+      color: $accent;
+    }
+}
+
+.dot-menu .menuzord .menuzord-menu li a span {
+    background-color: $accent;
+}
+
+.icon-menu{
+  li{
+   &.active{
+      i{
+        color: $accent;
+      }
+      span{
+        color: $accent;
+      }
+    }
+  }
+}
+.icon-menu .menuzord .menuzord-menu > li > a:hover, .icon-menu .menuzord .menuzord-menu > li > a:active{
+  color: $accent;
+}
+.icon-menu ul.menuzord-menu  li a:hover{
+  i{
+    color: $accent;
+  }
+}
+
+.about-us-5 .logo-wrap {
+    background-color: $accent;
+  }
+.about-us-5 .text-wrap span strong {
+    color: $accent;
+}
+
+ul.top-contact-links li span.contact-link-icons {
+    color: $accent;
+}
+
+ul.top-links li a:hover, ul.top-social li a:hover, ul.top-contact-links li a:hover {
+    color: $accent;
+}
+
+
+.service-3{
+  span{
+    color: $accent;
+  }
+  h4:after{
+    background-color: $accent;
+  }
+}
+.cta6{
+  .section-title{
+    span{
+      color: $accent;
+    }
+  }
+}
+.funfact-3{
+  .fun-1{
+    background-color: $accent;
+  }
+  .fun-2{
+    background-color: $accent*0.75;
+  }
+  .fun-3{
+    background-color: $accent*0.5;
+  }
+  .fun-4{
+    background-color: $accent*0.25;
+  }
+}
+
+.tab1{
+  .nav-pills{
+    li{
+      a{
+        @media(min-width: 768px){
+          border-left: 3px solid #f8f8f8;
+        }
+        &:active, &:hover, &:focus{
+          color: $accent;
+        }
+      }
+      &.active, &:hover{
+        a{
+          color: $accent;
+          @media(min-width: 768px){
+            border-left: 3px solid $accent;
+          }
+        }      
+      }
+    }
+  }
+  .section-subtitle:after{
+    background-color: $accent;
+  }
+}
+
+.video-grid-2-col .vg-wrap-1 a span i, .video-grid-2-col .vg-wrap-2 a span i {
+  color: $accent;
+}
+
+.video-grid-2-col .vg-wrap-1 a:hover span, .video-grid-2-col .vg-wrap-2 a:hover span {
+    background-color: $accent;
+}
+
+.pst-wrap .pst-table .pst-number{
+  color: $accent;
+}
+
+.landing-header-1 .content-wrap .content .trial-btn a,.ctaFunFact .trial-btn a {
+    background-color: $accent;
+}
+
+.pst-wrap blockquote:before {
+    color: $accent;
+}
+.login .login-box a.forgot{
+  color: $accent;
+}
+
+.wiget-wraper{
+  .title-underline{
+    border-color: $accent;
+  }
+}
+.wiget-title{
+  .highlight-text{
+    color: $accent;
+  }
+}
+
+
+@for $i from 1 through 3 {
+  .color-promo-box:nth-of-type(#{$i}){
+    /*background-color: hsl($hue  / $i*2, $saturation, $lightness);*/
+    transition: opacity .2s #{$i * .0001}s ease-in;
+    background-color: darken($accent, 2*$i);
+  }
+}
+
+.pace{
+  border-color: $accent;
+}
+.pace .pace-progress {
+    background: $accent;
+}
+
+ul.feature-list-item{
+    li{
+
+      i{
+        color: $accent;
+      }
+    }
+}
+::selection {
+  background: $accent;
+  color: #fff;
+}
+.menuzord span.new{
+  background-color: $accent;
+}
+.showcase-header h1 span.v-marker{
+  background-color: $accent;
+}
+
+.fswrap .fsicon{
+  color: $accent;
+}
+.full-width-social-icons a .box-icon:hover{
+  background-color: $accent;
+}
+.showcase-section .showcase-item .item:hover .item-title h5{
+  color: $accent;
+}
+.load-more-portfolio{
+  background-color: rgba($accent,0.8);
+  box-shadow: 7px 7px 0px 0px $accent; 
+}
+
+#dot-nav ul li {
+  border:1px solid $accent__light;
+
+  &.active, &:hover{
+    background-color: $accent;
+  }
+}

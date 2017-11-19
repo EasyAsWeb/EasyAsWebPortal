@@ -1,0 +1,63 @@
+// Colors
+$color__primary: #181622;
+$color__primary--light: #d0d0d0;
+$color__primary--dark: #111;
+$color__text--dark: #676767;
+$color_text_gray: #919191;
+
+$white: #fff;
+$accent: #007fbe;
+$accent__light: #00a1f1;
+
+
+$link-color: $accent;
+
+
+// Fonts
+$title_font: Poppins, sans-serif;
+$alt_font: Montserrat, sans-serif;
+$body_font: Lora, serif;
+
+
+// units
+$text__size--alpha: 3.998rem;
+$text__size--beta: 2.827rem;
+$text__size--gamma: 1.999rem;
+$text__size--delta: 1.414rem;
+$text__size--epsilon: 0.707rem;
+$text__size--zeta: 0.5rem;
+$text__size--eta: 1rem;
+$text__size--theta: 0.354rem;
+$text__size--iota: 2px;
+
+$primary-border-radius: 3px;
+
+
+// Fix for type scale
+
+
+
+// $base__size: 16px;
+// $type__scale: 1.618;
+
+// $text__size--eta: 1;
+// $text__size--delta: ($text__size--eta * $type__scale)+'rem';
+// $text__size--gamma: ($text__size--delta * $type__scale)+'rem';
+// $text__size--beta: ($text__size--gamma * $type__scale)+'rem';
+// $text__size--alpha: ($text__size--beta * $type__scale)+'rem';
+// $text__size--epsilon: ($text__size--eta / $type__scale)+'rem';
+// $text__size--zeta: ($text__size--epsilon / $type__scale)+'rem';
+// $text__size--theta: ($text__size--zeta / $type__scale)+'rem';
+
+
+// // Golden ration
+
+// $text__size--alpha: 6.854rem;
+// $text__size--beta: 4.236rem;
+// $text__size--gamma: 2.618rem;
+// $text__size--delta: 1.618rem;
+// $text__size--epsilon: 1rem;
+// $text__size--zeta: 0.618rem;
+// $text__size--eta: 1rem;
+// $text__size--theta: 0.382rem;
+// $text__size--iota: 0.236rem;
