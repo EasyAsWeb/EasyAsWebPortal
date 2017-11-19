@@ -1,0 +1,105 @@
+.why-choose-us{
+	.choose-us-header{
+		h1{
+			font-family: $title_font;
+			font-size: $text__size--beta;
+			margin-bottom: 90px;
+		}
+	}
+	.tab-content{
+		margin:0;
+		padding: 40px;
+		border: 1px solid rgba(0,0,0,0.1);
+
+		p{
+			line-height: 1.7;
+			color: #444;
+		}
+		h2{
+			font-size: $text__size--gamma;
+			margin: 20px 0;
+			line-height: 1.5;
+		}
+	}
+
+	.nav-tabs {
+		border-bottom: none;
+	}
+
+	.nav-tabs > li {
+	    width: 25%;
+	    margin-bottom: 0;
+	    
+
+	}
+
+	.nav-tabs > li{
+		
+		&:last-child a{
+			border-right-color: rgba(0,0,0,0.1);
+		}
+	}
+
+	.nav-tabs > li > a {
+	    padding:20px 0;
+	    text-align: center;
+	    line-height: 80px;
+	    margin: 0;
+	    border-radius: 0;
+	    border: 1px solid rgba(0,0,0,0.1);
+	    border-bottom-color: transparent;
+	    border-right-color: transparent;
+	}
+
+	i{
+		display: block;
+		font-size:36px;
+		line-height: 1;
+		margin-bottom: 10px;
+
+		@media (min-width: 768px){
+			font-size:48px;
+		}
+	}
+
+	span{
+		display: block;
+		line-height: 1;
+		text-transform: uppercase;
+		font-size: $text__size--eta;
+		font-weight: 300;
+
+		@media (min-width:768px){
+			font-size: $text__size--delta;
+		}
+	}
+
+}
+
+.why-choose-us .nav-tabs > li > a {
+
+	border: none;
+    
+    @media (min-width: 768px){
+    	border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	border:none;
+    @media (min-width: 768px){
+    	border: 1px solid #ddd;
+    }
+}
+
+.why-choose-us .nav-tabs > li:last-child a {
+	border-right-color:transparent;
+	@media (min-width: 768px){
+		border-right-color: rgba(0, 0, 0, 0.1);
+	}
+    
+}
+
+.corporate-3-why{
+	background-color: #f7f7f7;
+}

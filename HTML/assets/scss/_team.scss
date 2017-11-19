@@ -1,0 +1,75 @@
+.team{
+	h6{
+		color: #5d5d5d;
+	}
+	p{
+		color: #757576;
+	}
+}
+.team1{
+	.member-name{
+		margin-top: 25px;
+	}
+	.member-id{
+		margin-bottom: 25px;
+	}
+	.description{
+		msrgin-top:50px;
+		p{
+			font-size: 1.1rem;
+			line-height: 1.5em;
+
+		}
+	}
+}
+.team2{
+
+	.member-name{
+		font-weight: 700;
+		@media (max-width: 767px){
+			margin-top: 25px;
+		}
+	}
+	.social-icons{
+		margin-bottom: 25px;
+		margin-top: 25px;
+		position: relative;
+		li{
+			list-style-type: none;
+			display: inline-block;
+			font-weight: 700;
+			a{
+				color: $accent;
+			    width: 45px;
+			    position: relative;
+			    display: table;
+			    height: 45px;
+			    background-color: transparent;
+			    padding-right: 10px;
+			    border-radius: 50%;
+			    i{
+			    	display: table-cell;
+			    	vertical-align: middle;
+			    	text-align: center;
+			    	font-size: 18px;
+			    	color: #767676;
+			    }
+			}
+		}
+		&:before{
+			position: absolute;
+		    content: '';
+		    width: 75%;
+		    border-bottom: 1px solid #d0d0d0;
+		    bottom: 0;
+		}
+	}
+	.main-content-wrapper{
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+}
+
+.corporate-4-team{
+	background-color: #f7f7f7;
+}
