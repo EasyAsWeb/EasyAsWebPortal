@@ -43,12 +43,13 @@
 
 
 	$name = $_POST['name'];
+    $phone = $_POST['phone'];
 	$email = $_POST['email'];
 	$message = $_POST['message'];
 	$from = $email;
-	$subject = 'Contact Form : Mountain Responsive HTML5 Template';
-	$to = 'contact@easyasweb.co.nz';
-	$body = "From: $name\n E-Mail: $email\n Message:\n $message";
+	$subject = 'Contact Form : Easy As Web';
+	$to = 'raj@easyasweb.co.nz';
+	$body = "From: $name\n Phone: $phone\n E-Mail: $email\n Message:\n $message";
 
 
 	//send the email
