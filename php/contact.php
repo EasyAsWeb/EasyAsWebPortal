@@ -1,6 +1,6 @@
 <?php
 
-	$to = 'info@themewagon.com';  // please change this email id
+	//$to = 'info@themewagon.com';  // please change this email id
 	
 	$errors = array();
 	// print_r($_POST);
@@ -40,15 +40,13 @@
 		die();
 	}
 
-
-
 	$name = $_POST['name'];
     $phone = $_POST['phone'];
 	$email = $_POST['email'];
 	$message = $_POST['message'];
 	$from = $email;
 	$subject = 'Contact Form : Easy As Web';
-	$to = 'raj@easyasweb.co.nz';
+	$to = 'aleon1220@gmail.com';
 	$body = "From: $name\n Phone: $phone\n E-Mail: $email\n Message:\n $message";
 
 
@@ -72,7 +70,5 @@
 
 	echo $result;
 	die();
-
-
 ?>
 	
