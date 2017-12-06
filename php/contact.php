@@ -1,6 +1,6 @@
 <?php
 
-	$to = 'raj@easyasweb.co.nz';// please change this email id
+	$to = 'raj@easyasweb.nz';// please change this email id
 	
 	$errors = array();
 	// print_r($_POST);
