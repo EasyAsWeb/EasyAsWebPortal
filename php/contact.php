@@ -46,7 +46,7 @@
 	$message = $_POST['message'];
 	$from = $email;
 	$subject = 'Contact Form : Easy As Web';
-	$to = 'raj@easyasweb.co.nz';
+	$to = 'raj@easyasweb.nz';
 	$body = "From: $name\n Phone: $phone\n E-Mail: $email\n Message:\n $message";
 
 
