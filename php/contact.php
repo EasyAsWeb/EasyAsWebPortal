@@ -9,6 +9,15 @@
 	if (!isset($_POST['name'])) {
 		$errors['name'] = 'Please enter your name';
 	}
+
+	// Check if phone number has been entered and is valid
+	if (!isset($_POST['phone']) ) {
+		var phonenr = $phone.replace(/[\(\)\s\-]/g,'');
+		// or check if it's all digits, starting with 0 as well as the length
+		valid = /^0\d+$/.test(phonenr) && phonenr.length === 9;
+		
+		$errors['phone'] = 'Please enter a valid phone number';
+	}
 	
 	// Check if email has been entered and is valid
 	if (!isset($_POST['email']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {

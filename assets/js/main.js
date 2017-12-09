@@ -423,11 +423,12 @@ $( document ).ready(function() {
                     $cfResponse.html(data);
                     $cfsubmit.text(cfsubmitText);
                     $('#contactForm input[name=name]').val('');
+					$('#contactForm input[name=phone]').val('');
                     $('#contactForm input[name=email]').val('');
                     $('#contactForm textarea[name=message]').val('');
                 },
                 error: function (data) {
-                    alert("Error occurd! Please try again");
+                    alert("Error occurred! Please try again");
                 }
             });
 
@@ -464,7 +465,8 @@ $( document ).ready(function() {
                     $cfResponse.html(data);
                     $cfsubmit.text(cfsubmitText);
                     $('#requestForm input[name=name]').val('');
-                    $('#requestForm input[name=email]').val('');
+                    $('#requestForm input[name=phone]').val('');
+					$('#requestForm input[name=email]').val('');
                     $('#requestForm textarea[name=message]').val('');
                 },
                 error: function (data) {
@@ -629,9 +631,6 @@ $( document ).ready(function() {
         });
 
     })();
-
-
-
 
 
     /*------------------------------------------
@@ -813,18 +812,7 @@ var flickerAPI = "https://api.flickr.com/services/rest/?api_key=7a2dc9bed9dc2170
         });//json
     }
 })();
-
-
-
 });//end document ready
-
-
-
-
-
-
-
-
 
 //Masonry portfolio
 $(document).ready(function () {
@@ -858,7 +846,6 @@ $(document).ready(function () {
             });              
            
         })
-
 });
 
 
