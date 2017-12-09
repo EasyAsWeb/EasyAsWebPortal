@@ -1,7 +1,10 @@
 <?php
 
 	$to = 'raj@easyasweb.nz';// please change this email id
-	
+	//var phonenr = $phone.replace(/[\(\)\s\-]/g,'');
+	// or check if it's all digits, starting with 0 as well as the length
+	//valid = /^0\d+$/.test(phonenr) && phonenr.length === 9;
+
 	$errors = array();
 	// print_r($_POST);
 
@@ -12,11 +15,14 @@
 
 	// Check if phone number has been entered and is valid
 	if (!isset($_POST['phone']) ) {
-		var phonenr = $phone.replace(/[\(\)\s\-]/g,'');
-		// or check if it's all digits, starting with 0 as well as the length
-		valid = /^0\d+$/.test(phonenr) && phonenr.length === 9;
 		
 		$errors['phone'] = 'Please enter a valid phone number';
+	}
+
+	//$phone = '000-0000-0000';
+
+	if(preg_match("/^[0-9]{3}-[0-9]{4}-[0-9]{4}$/", $phone)) {
+  	// $phone is valid
 	}
 	
 	// Check if email has been entered and is valid
