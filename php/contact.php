@@ -18,12 +18,6 @@
 		
 		$errors['phone'] = 'Please enter a valid phone number';
 	}
-
-	//$phone = '000-0000-0000';
-
-	if(preg_match("/^[0-9]{3}-[0-9]{4}-[0-9]{4}$/", $phone)) {
-  	// $phone is valid
-	}
 	
 	// Check if email has been entered and is valid
 	if (!isset($_POST['email']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
