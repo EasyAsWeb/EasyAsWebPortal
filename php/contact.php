@@ -1,6 +1,6 @@
 <?php
 
-	$to = 'raj@easyasweb.nz';// please change this email id
+	$to = 'raj@easyasweb.co.nz';// please change this email id
 	//var phonenr = $phone.replace(/[\(\)\s\-]/g,'');
 	// or check if it's all digits, starting with 0 as well as the length
 	//valid = /^0\d+$/.test(phonenr) && phonenr.length === 9;
@@ -55,7 +55,7 @@
 	$message = $_POST['message'];
 	$from = $email;
 	$subject = 'Contact Form : Easy As Web';
-	$to = 'raj@easyasweb.nz';
+	$to = 'raj@easyasweb.co.nz';
 	$body = "From: $name\n Phone: $phone\n E-Mail: $email\n Message:\n $message";
 
 
